@@ -1,0 +1,205 @@
+/* =========================
+   CONFIGURAÇÕES GERAIS
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f2ff;
+    color: #40384a;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   CABEÇALHO
+========================= */
+
+header {
+    background: linear-gradient(135deg, #8e6bbd, #a98bd4);
+    color: white;
+    text-align: center;
+    padding: 45px 20px;
+    border-bottom: 5px solid #7654a3;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+
+/* =========================
+   CONTEÚDO PRINCIPAL
+========================= */
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 35px auto;
+}
+
+
+/* =========================
+   INTRODUÇÃO
+========================= */
+
+.introducao {
+    background-color: #ffffff;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 18px;
+    text-align: center;
+
+    border-top: 5px solid #b79add;
+
+    box-shadow: 0 4px 15px rgba(126, 93, 168, 0.12);
+}
+
+.introducao h2 {
+    color: #68458f;
+    margin-bottom: 15px;
+    font-size: 28px;
+}
+
+
+/* =========================
+   CARTÕES DAS RECEITAS
+========================= */
+
+.receita {
+    background-color: #ffffff;
+
+    padding: 30px;
+    margin-bottom: 35px;
+
+    border-radius: 18px;
+
+    border-left: 6px solid #a98bd4;
+
+    box-shadow: 0 5px 18px rgba(126, 93, 168, 0.13);
+}
+
+.receita h2 {
+    color: #68458f;
+    margin-bottom: 20px;
+    font-size: 29px;
+}
+
+
+/* =========================
+   IMAGENS
+========================= */
+
+.receita img {
+    width: 100%;
+    height: 350px;
+
+    object-fit: cover;
+
+    border-radius: 14px;
+
+    margin-bottom: 20px;
+}
+
+
+/* =========================
+   TEXTOS
+========================= */
+
+.receita p {
+    color: #51485b;
+    margin-bottom: 20px;
+}
+
+.receita h3 {
+    color: #7654a3;
+
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+
+/* =========================
+   LISTAS
+========================= */
+
+.receita ul,
+.receita ol {
+    margin-left: 25px;
+    color: #51485b;
+}
+
+.receita li {
+    margin-bottom: 5px;
+}
+
+
+/* =========================
+   BOTÕES
+========================= */
+
+button {
+    background-color: #9672c5;
+
+    color: white;
+
+    border: none;
+
+    padding: 13px 26px;
+
+    border-radius: 25px;
+
+    margin-top: 25px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #7654a3;
+
+    transform: translateY(-2px);
+
+    box-shadow: 0 5px 12px rgba(118, 84, 163, 0.25);
+}
+
+
+/* =========================
+   RODAPÉ
+========================= */
+
+footer {
+    background-color: #6f5195;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 35px 20px;
+
+    margin-top: 40px;
+}
+
+footer h3 {
+    margin-bottom: 15px;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
